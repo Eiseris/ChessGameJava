@@ -104,7 +104,6 @@ public class ChessGame {
 
             @Override
             public void mousePressed(MouseEvent e) {
-                //System.out.println((getPiece(e.getX(), e.getY()).isWhite?"white":"black") + getPiece(e.getX(), e.getY()).name);
                 selectedPiece = getPiece(e.getX(), e.getY());
             }
 
